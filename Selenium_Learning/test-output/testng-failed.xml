@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="interviewQuestions.DependsOnFails">
+      <class name="interviewQuestions.AssertVsVerify">
         <methods>
-          <include name="parentsPermission"/>
+          <include name="testing_Assert"/>
         </methods>
-      </class> <!-- interviewQuestions.DependsOnFails -->
+      </class> <!-- interviewQuestions.AssertVsVerify -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

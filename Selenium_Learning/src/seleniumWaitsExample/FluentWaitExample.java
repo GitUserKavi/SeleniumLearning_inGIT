@@ -14,10 +14,10 @@ import org.openqa.selenium.support.ui.Wait;
 public class FluentWaitExample {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 
-		System.setProperty("webdriver.chrome.driver", 				
-				"C:\\Users\\sathy\\OneDrive\\Desktop\\Kavitha\\Selenium\\WebDrivers\\Chrome_Driver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver",
+				"C:\\Users\\sathy\\OneDrive\\Desktop\\Kavitha\\Selenium\\Drivers\\Chrome\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.phptravels.net/login");
 		driver.manage().window().maximize();
@@ -44,7 +44,7 @@ public class FluentWaitExample {
 		});
 
 		profile.click();
-		driver.quit();
+		
 	}
 
 }
