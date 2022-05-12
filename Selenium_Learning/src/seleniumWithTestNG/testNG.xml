@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test Suite" verbose ="3" parallel="methods" thread-count="3">
+    <test name="Parallel Test">        
+        <classes>
+            <class name="seleniumWithTestNG.ParallelTesting" />
+        </classes>
+    </test>
+</suite>
+
+
+<!-- <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test Suite" verbose="2">
+    <test name="Group Test">
+        <groups>
+            <run>
+                <include name="Apple" />
+                <include name="MI" />
+            </run>
+        </groups>        
+        <classes>
+            <class name="seleniumWithTestNG.GroupTest" />
+        </classes>
+    </test>
+</suite> -->
+
+
+<!-- <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test Suite" verbose="2">
+ <parameter name="browser" value="chrome"/>
+    <test name="Run multiple tests">
+        <classes>
+   <class name="seleniumWithTestNG.OpenGoogle"/>
+        <class name="seleniumWithTestNG.SkipTest"/>
+        <class name="seleniumWithTestNG.TestWithPriority"/>  
+        <class name="seleniumWithTestNG.WhoIsThis"/>   
+       <class name="seleniumWithTestNG.MyBrowserMyRules"/>
+       </classes>
+       </test>
+</suite> -->
+
+
+
+<!-- <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Test Suite" verbose="2">
+    <test name="Run multiple tests">
+     <parameter name="Name" value="Kavin"> 
+        <classes>
+	    <class name="seleniumWithTestNG.OpenGoogle"/>
+        <class name="seleniumWithTestNG.SkipTest"/>
+        <class name="seleniumWithTestNG.TestWithPriority"/>
+        <class name="seleniumWithTestNG.WhoIsThis">  
+        </class></classes>
+    </parameter></test>
+</suite> -->
+ 
+ 
+<!-- <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Test Suite" verbose="2">
+    <test name="Run multiple tests">
+        <classes>
+        <class name="seleniumWithTestNG.OpenGoogle"> </class>
+        <class name="seleniumWithTestNG.SkipTest"> </class>
+        <class name="seleniumWithTestNG.TestWithPriority"> </class>
+        <class name="seleniumWithTestNG.OpenSearchEngines"> </class>
+       </classes>
+    </test>
+</suite> -->

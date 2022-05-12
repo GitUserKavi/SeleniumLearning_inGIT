@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="interviewQuestions.AssertVsVerify">
+      <class name="seleniumWithTestNG.MyBrowserMyRules">
         <methods>
-          <include name="testing_Assert"/>
+          <include name="closeBrowser"/>
+          <include name="openGoogle"/>
+          <include name="launchBrowser"/>
         </methods>
-      </class> <!-- interviewQuestions.AssertVsVerify -->
+      </class> <!-- seleniumWithTestNG.MyBrowserMyRules -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
